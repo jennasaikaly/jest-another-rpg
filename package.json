@@ -1,0 +1,25 @@
+{
+  "name": "jest-another-rpg",
+  "version": "1.0.0",
+  "description": "An RPG being created for Module 10 - Object-Oriented Programming.",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennasaikaly/jest-another-rpg.git"
+  },
+  "author": "Jenna Saikaly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennasaikaly/jest-another-rpg/issues"
+  },
+  "homepage": "https://github.com/jennasaikaly/jest-another-rpg#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
