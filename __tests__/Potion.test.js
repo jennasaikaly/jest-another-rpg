@@ -1,4 +1,10 @@
-const Potion = require('../lib/Potion.js');
+const Potion = require('../lib/Potion');
+
+jest.mock('../lib/Potion');
+
+//use this console.log to make sure that the info in the mock file is overwriting the 
+//real potion constructor
+console.log(new Potion());
 
 test('creates a health potion object', () => {
     const potion = new Potion('health');
